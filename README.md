@@ -4,7 +4,7 @@ Welcome to the **Java OOP Learning Repository**! This project is structured sequ
 
 Each directory corresponds to a specific module in the series. Inside each folder, create your Java code files, experiment with concepts, and practice.
 
-## 📁 Recommended Project Directory Structure
+## 📁 Project Directory Structure
 
 ```
 java-oop-mastery/
