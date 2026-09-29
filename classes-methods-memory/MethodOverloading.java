@@ -29,10 +29,9 @@ class Calculator {
 }
 
 // Main execution class (Save this file as Method.java)
-class Method {
+class MethodOverloading{
 
     public static void main(String a[]) {
-        // Variable declarations and initialization
         int num1 = 5;
         int num2 = 10;
         int num3 = 15;
@@ -40,11 +39,9 @@ class Method {
         // Creating an object (instance) of the Calculator class
         Calculator calci = new Calculator();
 
-        // 1. Invokes add(int, int) -> 2 parameters
         int result = calci.add(num1, num2);
         System.out.println("Sum of 2 numbers: " + result);
 
-        // 2. Reuses the 'result' variable to store outcome of add(int, int, int) -> 3 parameters
         result = calci.add(num1, num2, num3);
         System.out.println("Sum of 3 numbers: " + result);
     }

@@ -11,7 +11,7 @@ class Computer{
     }
 }
 
-class MethodBasic{
+class Method{
     public static void main(String a[]){
         Computer cmp = new Computer();
         cmp.playMusic();
